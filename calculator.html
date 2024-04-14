@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="main.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <section class="content_container">
+        <section class="calculator_container">
+            <section class="display_container">
+                <input type="text" class="calculator_display">
+            </section>
+            <section class="buttons_container">
+                <section class="numbers_container">
+                    <section class="calculator_button">7</section>
+                    <section class="calculator_button">8</section>
+                    <section class="calculator_button">9</section>
+                    <section class="calculator_button">4</section>
+                    <section class="calculator_button">5</section>
+                    <section class="calculator_button">6</section>
+                    <section class="calculator_button">1</section>
+                    <section class="calculator_button">2</section>
+                    <section class="calculator_button">3</section>
+                    <section class="calculator_button">0</section>
+                </section>
+                <section class="control_container">
+                    <section class="control-calculator_button-operator">+</section>
+                    <section class="control-calculator_button-operator">-</section>
+                    <section class="control-calculator_button-operator">*</section>
+                    <section class="control-calculator_button-operator">/</section>
+                    <section class="control-calculator_button" id="eq_id">=</section>
+                    <section class="control-calculator_button" id="cls_id">off</section>
+                    <section class="control-calculator_button" id="cls_one_id">c</section>
+                </section>
+            </section>
+        </section>
+        <section class="choose_buttons_container">
+            <span id="v1_id">
+                v1 (через .__lr)
+            </span>
+            <span id="v2_id">
+                v2 (своё решение)
+            </span>
+        </section>
+    </section>
+    <script type="text/javascript" src="choose_control.js"></script>
+    <script type="text/javascript" src="claculate_control.js" id="calculate_script_id"></script>
+    <script type="text/javascript" src="calculate_control_v2.js" id="calculate_script_v2_id"></script>
+    <script type="text/javascript" src="input_control.js"></script>
+</body>
+</html>
